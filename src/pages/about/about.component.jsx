@@ -2,12 +2,13 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import './about.style.css'
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
 import Profile from '../../assets/img/profile/profile.jpg'
 
-import './about.style.css'
+
 const About = () => {
     return (
         <div id="about">
@@ -65,4 +66,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade'
-import Parallax from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import Container  from "react-bootstrap/Container";
 
 
@@ -22,11 +22,8 @@ const App = () => {
           bgImage={require("./assets/img/parallex/background.webp")}
           bgImageAlt=""
           strength={-200}>
-            
             <Container className="container-box rounded">
             <Fade duration={500}>
-
-        
             <About/>
             </Fade>
           </Container>

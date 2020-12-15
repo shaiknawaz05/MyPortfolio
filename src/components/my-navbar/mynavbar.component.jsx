@@ -6,10 +6,13 @@ import "./mynavbar.style.css";
 
 const MyNavbar = () => {
   return (
+    
     <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+      
   <Navbar.Brand href="#home">
     <img className="logo" src= {Logo} alt="My Portfolio Logo"/>
   </Navbar.Brand>
+  
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
@@ -20,7 +23,9 @@ const MyNavbar = () => {
       <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
+ 
 </Navbar>
+
     
   );
 };

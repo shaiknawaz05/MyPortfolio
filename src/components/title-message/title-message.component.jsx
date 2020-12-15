@@ -27,32 +27,29 @@ const MyTitleMessage = styled.h1`
     }
   }
 `;
-const TitleMessage = () => {
-    return (
+      const TitleMessage = () => (
         <MyTitleMessage>
-            <div className="titleMessage">
-      <div className="heading">
-        <div className="main text-center mb-3">
-           Hey..!! I am
-          <br />
-          <span>
-            <strong>Shaik Nawaz</strong>
-          </span>
-        </div>
-        <div className="sub">
-
-            <Typewriter
-  options={{
-    strings: ['Developer', 'Learner'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
-</div>
-</div>
-</div>
+          <div className="titleMessage">
+            <div className="heading">
+              <div className="main text-center mb-3">
+                Hey.., I am
+                <br />
+                <span>
+                  <strong>Shaik Nawaz</strong>
+                </span>
+              </div>
+              <div className="sub">
+                <Typewriter
+                  options={{
+                    strings: ["Web Developer", "Learner"],
+                    autoStart: true,
+                    loop: true,
+                    delay: 50
+                  }}
+                />
+              </div>
+            </div>
+          </div>
         </MyTitleMessage>
-    )
-}
-
-export default TitleMessage;
+      );
+export default TitleMessage

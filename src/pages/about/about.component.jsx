@@ -3,11 +3,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './about.style.css'
+import Profile from '../../assets/img/profile/profile.jpg'
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
-
-import Profile from '../../assets/img/profile/profile.jpg'
-
 
 const About = () => {
     return (
@@ -15,7 +13,7 @@ const About = () => {
             <div className="about">
             <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
             <Container>
-           <Row className="pt-3 pb-5 text-center font-details pb-3">
+           <Row className="pt-3 pb-5 text-center ">
                <Col xs={12} md={6}>
                   <Row className="justify-content-center mb-2 mr-2">
                    <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid/>
@@ -23,14 +21,13 @@ const About = () => {
               </Col>
               <Col xs={12} md={6}>
                <Row className=" align-items-start p-2 my-details rounded">
-               Hiii.. I am <strong>&nbsp;Shaik Nawaz</strong>
+               Hiii.. I am  <strong>&nbsp;Shaik Nawaz</strong>
                 <br />A passionate Learner, born and brought up in India. I am a Full Stack Web Developer with React.js,Django,Bootstrap,SQL as my tech stack.
                 <br />
                 <br />
-                 I am pursuing my Engineering  in 'Computer Science Engineering'.
-                <br />
-                 Batch of 2017 at JNTU Pulivendula.I am good at C,Java and Python.
-                <br />
+                 I am pursuing my Engineering  in 'Computer Science Engineering'. Batch of 2017 at JNTU Pulivendula.
+                 <br />I am good at C,Java and Python.
+                 <br />
                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better products.
                 <br /> <br />
                </Row>

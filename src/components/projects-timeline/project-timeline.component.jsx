@@ -1,24 +1,20 @@
 import React from 'react'
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
+import L_ReactToDoList from "../../assets/img/projects/todo.png";
+import L_URL from "../../assets/img/projects/url.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
+import L_PYTHON from "../../assets/img/skills/python.svg";
 
-import L_GIT from "../../assets/img/skills/github-api.svg";
-
+import './project-timeline.style.css'
 
 const ProjectTimeline = () => {
     return (
@@ -26,7 +22,7 @@ const ProjectTimeline = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
             <Events>
-                {/* Project: Todo List With MUI */}
+                {/* Project: Todo List  */}
         <ImageEvent
             date="01/10/2020"
             className="text-center"
@@ -48,12 +44,12 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is a Todo App created with React  that keeps a track of your Todos
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
+                          <li>Powered by React </li>
                           <li>Respoisive Design</li>
                         </ul>
                         <hr />
@@ -92,18 +88,6 @@ const ProjectTimeline = () => {
                               React
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -112,13 +96,13 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
+                  href="https://github.com/shaiknawaz05/To-Do-App.git"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
+                  href="https://github.com/shaiknawaz05/To-Do-App.git"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -126,6 +110,86 @@ const ProjectTimeline = () => {
               </div>
             </div>
           </ImageEvent>
+          
+
+          <ImageEvent
+            date="28/11/2020"
+            className="text-center"
+            text="URL shortner"
+            src={L_URL}
+            alt="URL shortner"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is used to shorten any URL
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Can shorten any url.</li>
+                          <li>Powered by Django</li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_DJANGO}
+                                alt="DJANGO"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Django
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PYTHON}
+                                alt="Python"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Python
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/shaiknawaz05/URL-shortener.git"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/shaiknawaz05/URL-shortener.git"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
           </Events>
       </Timeline>
         </div>

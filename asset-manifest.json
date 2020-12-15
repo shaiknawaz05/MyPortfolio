@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/shaiknawaz05/MyPortfolio/static/css/main.c618b54c.chunk.css",
+    "main.js": "/shaiknawaz05/MyPortfolio/static/js/main.7c67ec64.chunk.js",
+    "main.js.map": "/shaiknawaz05/MyPortfolio/static/js/main.7c67ec64.chunk.js.map",
+    "runtime-main.js": "/shaiknawaz05/MyPortfolio/static/js/runtime-main.fb5b1457.js",
+    "runtime-main.js.map": "/shaiknawaz05/MyPortfolio/static/js/runtime-main.fb5b1457.js.map",
+    "static/js/2.8db31bd7.chunk.js": "/shaiknawaz05/MyPortfolio/static/js/2.8db31bd7.chunk.js",
+    "static/js/2.8db31bd7.chunk.js.map": "/shaiknawaz05/MyPortfolio/static/js/2.8db31bd7.chunk.js.map",
+    "index.html": "/shaiknawaz05/MyPortfolio/index.html",
+    "static/css/main.c618b54c.chunk.css.map": "/shaiknawaz05/MyPortfolio/static/css/main.c618b54c.chunk.css.map",
+    "static/js/2.8db31bd7.chunk.js.LICENSE.txt": "/shaiknawaz05/MyPortfolio/static/js/2.8db31bd7.chunk.js.LICENSE.txt",
+    "static/media/Java.5a6e5031.jpg": "/shaiknawaz05/MyPortfolio/static/media/Java.5a6e5031.jpg",
+    "static/media/contact-form.style.css": "/shaiknawaz05/MyPortfolio/static/media/background.48c0b661.webp",
+    "static/media/background.f6814621.webp": "/shaiknawaz05/MyPortfolio/static/media/background.f6814621.webp",
+    "static/media/bootstrap-4.997c463d.svg": "/shaiknawaz05/MyPortfolio/static/media/bootstrap-4.997c463d.svg",
+    "static/media/css3.8fba365c.svg": "/shaiknawaz05/MyPortfolio/static/media/css3.8fba365c.svg",
+    "static/media/django.0779fca2.svg": "/shaiknawaz05/MyPortfolio/static/media/django.0779fca2.svg",
+    "static/media/github.740db6be.svg": "/shaiknawaz05/MyPortfolio/static/media/github.740db6be.svg",
+    "static/media/html-5.821ba738.svg": "/shaiknawaz05/MyPortfolio/static/media/html-5.821ba738.svg",
+    "static/media/javascript.ba40d6a9.svg": "/shaiknawaz05/MyPortfolio/static/media/javascript.ba40d6a9.svg",
+    "static/media/mssql.18f84630.svg": "/shaiknawaz05/MyPortfolio/static/media/mssql.18f84630.svg",
+    "static/media/nodejs.52cbf9a8.svg": "/shaiknawaz05/MyPortfolio/static/media/nodejs.52cbf9a8.svg",
+    "static/media/profile.648d6f59.jpeg": "/shaiknawaz05/MyPortfolio/static/media/profile.648d6f59.jpeg",
+    "static/media/python.e6d7dc73.svg": "/shaiknawaz05/MyPortfolio/static/media/python.e6d7dc73.svg",
+    "static/media/react-bootstrap.534ba574.svg": "/shaiknawaz05/MyPortfolio/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react.add74742.svg": "/shaiknawaz05/MyPortfolio/static/media/react.add74742.svg",
+    "static/media/slide1.e3979111.jpg": "/shaiknawaz05/MyPortfolio/static/media/slide1.e3979111.jpg",
+    "static/media/slide2.f38fabf8.jpg": "/shaiknawaz05/MyPortfolio/static/media/slide2.f38fabf8.jpg",
+    "static/media/slide3.992ac5be.jpg": "/shaiknawaz05/MyPortfolio/static/media/slide3.992ac5be.jpg",
+    "static/media/styled-components.2e00d138.svg": "/shaiknawaz05/MyPortfolio/static/media/styled-components.2e00d138.svg",
+    "static/media/todo.1f425adc.png": "/shaiknawaz05/MyPortfolio/static/media/todo.1f425adc.png",
+    "static/media/url.0b416ea3.png": "/shaiknawaz05/MyPortfolio/static/media/url.0b416ea3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb5b1457.js",
+    "static/js/2.8db31bd7.chunk.js",
+    "static/css/main.c618b54c.chunk.css",
+    "static/js/main.7c67ec64.chunk.js"
+  ]
+}

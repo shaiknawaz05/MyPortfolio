@@ -1,6 +1,6 @@
 {
   "name": "myportfolio",
-  "homepage": "https://github.com/shaiknawaz05/MyPortfolio",
+  "homepage": "https://shaiknawaz05.github.io/MyPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",

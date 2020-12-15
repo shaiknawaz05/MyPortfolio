@@ -11,9 +11,9 @@ const About = () => {
     return (
         <div id="about">
             <div className="about">
-            <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
+            <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
             <Container>
-           <Row className="pt-3 pb-5 text-center ">
+           <Row className="pt-3 pb-5 align-items-center">
                <Col xs={12} md={6}>
                   <Row className="justify-content-center mb-2 mr-2">
                    <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid/>
@@ -22,7 +22,8 @@ const About = () => {
               <Col xs={12} md={6}>
                <Row className=" align-items-start p-2 my-details rounded">
                Hiii.. I am  <strong>&nbsp;Shaik Nawaz</strong>
-                <br />A passionate Learner, born and brought up in India. I am a Full Stack Web Developer with React.js,Django,Bootstrap,SQL as my tech stack.
+                <br />A passionate Learner, born and brought up in India. 
+                <br />I am a Full Stack Web Developer with React.js,Django,Bootstrap,SQL as my tech stack.
                 <br />
                 <br />
                  I am pursuing my Engineering  in 'Computer Science Engineering'. Batch of 2017 at JNTU Pulivendula.

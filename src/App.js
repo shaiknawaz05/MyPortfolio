@@ -24,7 +24,7 @@ const App = () => {
           strength={-200}>
             <div>
             <Container className="container-box rounded">
-            <Fade duration={500}>
+            <Fade duration={100}>
             <About/>
             </Fade>
           </Container>

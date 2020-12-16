@@ -96,7 +96,7 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/shaiknawaz05/To-Do-App.git"
+                  href="https://shaiknawaz05.github.io/To-Do-App"
                   target="_blank"
                 >
                   SEE LIVE
@@ -174,7 +174,7 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/shaiknawaz05/URL-shortener.git"
+                  href="https://shaiknawaz05.github.io/URL-shortener"
                   target="_blank"
                 >
                   SEE LIVE

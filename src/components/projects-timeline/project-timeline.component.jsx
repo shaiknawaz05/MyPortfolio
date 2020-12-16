@@ -174,7 +174,7 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://shaiknawaz05.github.io/URL-shortener"
+                  href="https://myurlshortener1.herokuapp.com/"
                   target="_blank"
                 >
                   SEE LIVE

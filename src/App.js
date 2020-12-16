@@ -20,9 +20,10 @@ import "./App.css";
 const App = () => {
   return (
   <div className="App" style={{ position: "relative" }}>
+    <MyCarousel/>
+    <TitleMessage />
       <MyNavbar />
-      <MyCarousel/>
-      <TitleMessage/>
+
       <Particles
         className="particles particles-box"
         params={particlesoptions}
@@ -42,10 +43,10 @@ const App = () => {
          </Parallax>
     </div>
     <Container className="container-box rounded">
-    <Fade duration={100}>
+    <Slide bottom duration={500}>
           <hr />
         <Skills />
-          </Fade>
+        </Slide>
       </Container>
       <Container className="container-box rounded">
         <Slide bottom duration={500}>

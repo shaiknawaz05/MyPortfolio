@@ -40,7 +40,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1m6rxpSFpMLuKkEool70N7ojpJcI5FiUU/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1gOWmXhZ7XwIB_8gtLkCjylG-jXXNSvn1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

@@ -53,7 +53,13 @@ const About = () => {
                       </Button>
                     </a>
                   </div>
-                  
+                  <div>
+                    <a href="https://www.linkedin.com/in/shaiknawaz551" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-info">
+                        Linkedin
+                      </Button>
+                    </a>
+                  </div>
                 </Col>
                </Row>
               </Col>
